@@ -1,0 +1,11 @@
+{
+    "queries": [{
+            "metric": "containers_running",
+            "query": "avg:jmx.org.cloudfoundry.opentsdb.nozzle.bbs.lr_ps_running{*} by {foundry}"
+        },
+        {
+            "metric": "gorouter.requests.hour",
+            "query": "per_hour(avg:jmx.org.cloudfoundry.opentsdb.nozzle.gorouter.total_requests{*} by {foundry})"
+        }
+    ]
+}

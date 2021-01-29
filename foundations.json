@@ -1,0 +1,108 @@
+{
+    "foundations": [{
+            "foundry": "px-prd01",
+            "environment": "production",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-prd02",
+            "environment": "production",
+            "region": "px-02",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-prd03",
+            "environment": "production",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-prd04",
+            "environment": "production",
+            "region": "px-02",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "tt-prd01",
+            "environment": "production",
+            "region": "tt-01",
+            "dc": "Titan",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-01",
+            "environment": "production",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "tt-01",
+            "environment": "production",
+            "region": "tt-01",
+            "dc": "Titan",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-cde",
+            "environment": "production",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "CDE"
+        },
+        {
+            "foundry": "px-cde02",
+            "environment": "production",
+            "region": "px-02",
+            "dc": "Polaris",
+            "context": "CDE"
+        },
+        {
+            "foundry": "tt-cde",
+            "environment": "production",
+            "region": "tt-01",
+            "dc": "Titan",
+            "context": "CDE"
+        },
+        {
+            "foundry": "px-npe01",
+            "environment": "non-production",
+            "region": "pxnpe-01",
+            "dc": "Polaris",
+            "context": "NPE"
+        },
+        {
+            "foundry": "px-stg",
+            "environment": "internal",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "px-stg02",
+            "environment": "internal",
+            "region": "px-02",
+            "dc": "Polaris",
+            "context": "EIT"
+        },
+        {
+            "foundry": "tt-stg",
+            "environment": "internal",
+            "region": "tt-01",
+            "dc": "Titan",
+            "context": "EIT"
+        },
+        {
+            "foundry": "sandbox",
+            "environment": "internal",
+            "region": "px-01",
+            "dc": "Polaris",
+            "context": "EIT"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+*.csv
+.idea/*
+*.pyc
+.cache
+.pytest_cache
+__pycache__
+*.swp
+tags
+.vscode
+*.xlsx

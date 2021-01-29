@@ -1,0 +1,10 @@
+---
+applications:
+- name: test-ddog-exporter
+  memory: 4096M
+  buildpack: python_buildpack
+  instances: 1
+  health-check-type: process
+  env:
+    DATADOG_API_KEY: ((datadog_api_key))
+    DATADOG_APP_KEY: ((datadog_app_key))
